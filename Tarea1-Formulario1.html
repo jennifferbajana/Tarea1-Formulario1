@@ -1,0 +1,60 @@
+<!Doctype HTLM>
+<html>
+<head>
+	 <meta charset="UTF-8" >
+	  <title> Formulario Estudiantil </title>
+</head>
+<body STYLE="background-color:Pink">
+ <h2 style ="color:red;font-family:Calibri;">Formulario Estudiantil </h2>
+<form>
+  <fieldset>
+ <legend>Datos Personales</legend>
+      <label for="ced">Identificacion :</label><br>
+      <input type="text" id="ced" name="ced"><br>
+      <label for="name">Nombres:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="ape">Apellidos:</label><br>
+      <input type="text" id="ape" name="ape"><br>
+      <label for="e-mail">e-mail:</label><br>
+      <input type="text" id="e-mail" name="e-mail"><br>
+      <label for="gene">Sexo:</label><br>
+      <input type="radio" id="gene" name="fav_language" value="gene">
+      <label for="gene">Femenino</label><br>
+      <input type="radio" id="Masc" name="fav_language" value="Masc">
+      <label for="Masc">Masculino</label><br><br>
+      <label for="datemax">Fecha de Nacimiento :</label>
+      <input type="date" id="datemax" name="datemax" max="200-12-31">
+</fieldset>
+  <br>
+  <fieldset>
+ <legend>Datos Estudiantil</legend>
+      <label for="int">Intitucion:</label><br>
+      <input type="text" id="int" name="int"><br>
+      <label for="fal">Facultad :</label><br>
+      <input type="text" id="fal" name="fal"><br>
+      <label for="carr">Carrera :</label><br>
+      <input type="text" id="carr" name="carr"><br>
+      <label for="pele">Periodo Lectivo:</label><br>
+      <input type="text" id="pele" name="pele"><br>
+      <label for="Jorn">Jornada :</label><br>
+      <input type="text" id="Jorn" name="Jorn"><br>
+      <label for="Seme"> Semestre:</label><br>
+  <select id="Seme" name="Sem">
+      <option value="1">1er semestre</option>
+      <option value="2">2do Semestre</option>
+      <option value="3">3er semestre</option>
+      <option value="4">4to Semestre</option>
+      <option value="5">5to Semestre</option>
+      <option value="6">6to Semestre</option>
+      <option value="7">7mo Semestre</option>
+      <option value="8">8vo Semestre</option>
+      <option value="9">9no Semestre</option>
+  </select><br><br>
+	    <label for= "feli"> Nivel de Educacion:</label>
+	    <input type="range"  id="feli"  name="feli" value="50"><br><br>
+        <input type="submit">
+        <input type="reset">
+    </fieldset>
+  </form>
+</body>
+</html>
